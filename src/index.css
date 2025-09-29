@@ -66,3 +66,41 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.container {
+  display: flex;
+  flex-direction: column; /* Stack items on small screens */
+}
+/* Default for mobile */
+.element {
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* For tablets and up */
+@media (min-width: 768px) {
+  .element {
+    font-size: 18px;
+    padding: 20px;
+  }
+}
+
+/* For desktops and up */
+@media (min-width: 1024px) {
+  .element {
+    font-size: 20px;
+    padding: 30px;
+  }
+}
+.container {
+  width: 100%;
+  padding: 2rem;
+}
+
+.text {
+  font-size: 1.2rem;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
