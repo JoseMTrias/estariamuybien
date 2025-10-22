@@ -5,9 +5,9 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://react.dev" target="_blank">
+        
           <img src={myGif} className="myGif" alt="my Gif" />
-        </a>
+        
       </div>
     </>
   );
