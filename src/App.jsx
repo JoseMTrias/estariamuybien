@@ -5,9 +5,9 @@ function App() {
   return (
     <>
       <div>
-        <p className='maroma'>Maroma, mándame el audio ya</p>
-          {/* <img src={myGif} className="myGif" alt="my Gif" /> */}
-        
+        {/* <p className='maroma'>Maroma, mándame el audio ya</p> */}
+          <img src={myGif} className="myGif" alt="my Gif" />
+
       </div>
     </>
   );
